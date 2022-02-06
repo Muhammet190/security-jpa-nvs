@@ -26,17 +26,15 @@ ifndef::imagesdir[:imagesdir: ../images]
 [cols="1"]
 |===
 | Zugriffskontrolle und das Ausfiltern findet in der Datenbank statt.
-| Sicherheitsrelavanter Code kann aus der Geschäftslogik entfernt werden(wird per Annotationen oder auch XML konfiguriert).
-
+| Sicherheitsrelavanter Code kann aus der Geschäftslogik entfernt werden.
 | Integration für Java EE Security und andere Frameworks
 | Einfache Erweiterbarkeit
-
 |===
 
-=== Wie funktioniert JPA Security
+== Wie funktioniert JPA Security
 * In der aktuellen Version von JPA Security entspricht eine Sicherheitseinheit direkt einer Persistenzeinheit von JPA.
 * Im Gegensatz zur Security Unit beginnt der Sicherheitskontext zur Laufzeit mit der Authentifizierung eines Benutzers.
-* Der Inhalt dieses Kontextes ist komplett anpassbar und Sie können dies durch Implementierung der SecurityContext-Schnittstelle tun.
+* Der Inhalt dieses Kontextes ist komplett anpassbar.
 
 == Code Beispiel folgt ....
 
