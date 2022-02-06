@@ -22,14 +22,10 @@ ifndef::imagesdir[:imagesdir: ../images]
 
 === Wieso JPA Security (Eigenschaften)
 
-
-[cols="1"]
-|===
-| Zugriffskontrolle und das Ausfiltern findet in der Datenbank statt.
-| Sicherheitsrelavanter Code kann aus der Geschäftslogik entfernt werden.
-| Integration für Java EE Security und andere Frameworks
-| Einfache Erweiterbarkeit
-|===
+* Zugriffskontrolle und das Ausfiltern findet in der Datenbank statt.
+* Sicherheitsrelavanter Code kann aus der Geschäftslogik entfernt werden.
+* Integration für Java EE Security und andere Frameworks
+* Einfache Erweiterbarkeit
 
 == Wie funktioniert JPA Security
 * In der aktuellen Version von JPA Security entspricht eine Sicherheitseinheit direkt einer Persistenzeinheit von JPA.
