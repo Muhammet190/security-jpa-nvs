@@ -38,6 +38,6 @@ ifndef::imagesdir[:imagesdir: ../images]
 * Im Gegensatz zur Security Unit beginnt der Sicherheitskontext zur Laufzeit mit der Authentifizierung eines Benutzers.
 * Der Inhalt dieses Kontextes ist komplett anpassbar und Sie können dies durch Implementierung der SecurityContext-Schnittstelle tun.
 
-== Code Beispiel folgt ...
+== Code Beispiel folgt ....
 
 
