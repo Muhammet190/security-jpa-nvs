@@ -20,7 +20,7 @@ ifndef::imagesdir[:imagesdir: ../images]
 * ist eine Access Control Lösung für objektrelationale Datenbankzugriffe über die Java Persistence API.
 * JPA Security ist ein rein deklarativer Ansatz und kann per Annotationen oder auch XML konfiguriert werden.
 
-== Wieso JPA Security (Eigenschaften)
+=== Wieso JPA Security (Eigenschaften)
 
 
 [cols="1"]
@@ -33,7 +33,7 @@ ifndef::imagesdir[:imagesdir: ../images]
 
 |===
 
-== Wie funktioniert JPA Security
+=== Wie funktioniert JPA Security
 * In der aktuellen Version von JPA Security entspricht eine Sicherheitseinheit direkt einer Persistenzeinheit von JPA.
 * Im Gegensatz zur Security Unit beginnt der Sicherheitskontext zur Laufzeit mit der Authentifizierung eines Benutzers.
 * Der Inhalt dieses Kontextes ist komplett anpassbar und Sie können dies durch Implementierung der SecurityContext-Schnittstelle tun.
